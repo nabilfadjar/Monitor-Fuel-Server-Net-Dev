@@ -4,6 +4,9 @@
 #Do only if in the same local area network with the linux server (please exchange ssh keys rather than using password if possible)
 #ssh nabilfadjar@192.168.70.80 
 
+#Change directory to location of temp data storage
+cd /home/nabilfadjar/Documents/
+
 while true; do
   #SSH to Fuel Server and send data of network devices to the linux server (saved as devInfoRec.txt)
   ssh root@10.20.0.2 "cat /proc/net/dev" > /home/nabilfadjar/Documents/devInfoRec.txt
