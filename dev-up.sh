@@ -1,7 +1,7 @@
 #!/bin/bash
 #This bash script will be used to auto update the network device information and display the result in an html document.
 
-#Only if in the same local area network with the linux server (please exchange ssh keys rather than using password if possible)
+#Do only if in the same local area network with the linux server (please exchange ssh keys rather than using password if possible)
 #ssh nabilfadjar@192.168.70.80 
 
 while true; do
